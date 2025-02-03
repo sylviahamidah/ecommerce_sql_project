@@ -32,8 +32,6 @@ LEFT JOIN orders o
 WHERE w.created_at BETWEEN '2012-04-01' AND '2013-04-06'
 GROUP BY 1, 2
 
--- SOAL 3 GAADA DATABASENYA (order_items)
-
 -- CASE 2. USER ANALYSIS
 -- Soal 1. Case Identifying Repeat Visitors
 -- Step 1: Identify relevant new sessions
